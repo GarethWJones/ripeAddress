@@ -25,7 +25,7 @@ the '00' at the beginning and the last four bytes - that's why it's encoded into
 python3 ripeAddress.py --findHash {hash file} -o {output file name}
 python3 ripeAddress.py --findAddress {BTC address file} -o {output file name}
 
-*The input files must have one hash per line, or one BTC address per line.*
+**The input files must have one hash per line, or one BTC address per line.**
 
 This script is for Python 3 and requires the following libraries:
 
@@ -34,4 +34,4 @@ This script is for Python 3 and requires the following libraries:
 * argparse
 * hashlib
 
-*This has not yet been tested on Linux.*
+**This has not yet been tested on Linux.**
